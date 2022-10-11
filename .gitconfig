@@ -1,0 +1,33 @@
+[user]
+	name = Jiri Skacel
+	email = jiri.skacel@solarwinds.com
+
+[core]
+	autocrlf = false
+	editor = code --wait
+
+[safe]
+	directory = /source/*
+
+[include]
+	path = ~/.gitconfig.local
+
+[pull]
+	ff = only
+
+[diff]
+	tool = vscode
+	wsErrorHighlight = all
+
+[difftool "vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+
+[merge]
+	tool = vscode
+	conflictStyle = diff3
+
+[mergetool "vscode"]
+	cmd = code --wait --merge $LOCAL $REMOTE $BASE $MERGED
+
+[color "diff"]
+	whitespace = reverse red

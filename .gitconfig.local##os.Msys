@@ -1,0 +1,5 @@
+[core]
+	fsmonitor = true
+
+[maintenance]
+	repo = C:/source/orion
