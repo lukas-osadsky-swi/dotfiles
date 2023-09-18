@@ -2,8 +2,8 @@
 	path = ./.gitconfig.local
 
 [user]
-	name = Jiri Skacel
-	email = jiri.skacel@solarwinds.com
+	name = Lukas Osadsky
+	email = lukas.osadsky@solarwinds.com
 
 [core]
 	autocrlf = false
@@ -14,9 +14,6 @@
 
 [fetch]
 	prune = true
-
-[pull]
-	ff = only
 
 [diff]
 	tool = vscode
