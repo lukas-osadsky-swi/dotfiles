@@ -8,5 +8,5 @@ chmod 755 $YADM
 
 # clone dotfiles
 $YADM clone https://github.com/jiriskacel/dotfiles -b yadm/linux --no-bootstrap
-$YADM checkout --ours HEAD -- $HOME
+$YADM checkout HEAD -- $HOME
 $YADM bootstrap
