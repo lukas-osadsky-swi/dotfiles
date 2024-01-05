@@ -15,5 +15,5 @@ set ShellExe=%GitFolder%bin\sh.exe
 
 # clone dotfiles
 & $YADM_BAT clone "https://github.com/jiriskacel/dotfiles" -b "yadm/windows" --no-bootstrap
-& $YADM_BAT checkout --ours HEAD -- $HOME
+& $YADM_BAT checkout HEAD -- $HOME
 & $YADM_BAT bootstrap
